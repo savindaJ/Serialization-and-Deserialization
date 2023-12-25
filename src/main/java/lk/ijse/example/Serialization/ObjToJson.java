@@ -14,11 +14,9 @@ public class ObjToJson {
 
         String json = new Gson().toJson(student);
 
-        long l = System.currentTimeMillis();
+        long l = System.currentTimeMillis(); // getting a calculation time !
 
         System.out.println("Gson Output :"+json+" "+(System.currentTimeMillis()-l+"ms"));
-
-
 
     }
 }
