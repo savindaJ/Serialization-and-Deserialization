@@ -1,11 +1,13 @@
 package lk.ijse.example;
 
+import java.io.Serializable;
+
 /**
  * @author : savindaJ
  * @date : 12/25/2023
  * @since : 0.1.0
  **/
-public class Student {
+public class Student implements Serializable {
     private String studentId;
     private String studentName;
     private String studentAddress;

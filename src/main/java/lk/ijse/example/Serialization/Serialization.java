@@ -1,8 +1,6 @@
-package lk.ijse.example.Deserialization;
+package lk.ijse.example.Serialization;
 
 import lk.ijse.example.Student;
-
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 
@@ -16,7 +14,7 @@ public class Serialization {
         Student student = new Student("S001", "savinda", "Matara", 21);
 
         try {
-            FileOutputStream out = new FileOutputStream("student.txt");
+            FileOutputStream out = new FileOutputStream("G:\\WorkZone\\Serialization\\Serialization-01\\src\\main\\resources\\student.txt");
 
             ObjectOutputStream obj = new ObjectOutputStream(out);
 
